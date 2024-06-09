@@ -25,7 +25,7 @@ conv2d:
         li  t6, 0 # m = 0
 4:
 
-	      # a6, a7
+	# a6, a7
         add a6, t3, t6 # (i+m)
         mul a6, a6, a2 # (i+m)*w
         add a6, a6, t2 # (i+m)*w + j
